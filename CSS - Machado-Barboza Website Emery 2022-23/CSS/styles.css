@@ -1,0 +1,309 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 5.625rem;
+  margin: 0px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  padding-bottom:  50px;
+padding-top: 50px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #1e836c;
+    text-align: center;
+    font-size: 2.5rem;
+      padding-bottom:  20px;
+      margin-bottom: 16px;
+
+
+
+}
+
+h3{
+  font-family: 'Montserrat-Bold', sans-serif;
+  text-align: center;
+
+    padding-bottom:  100px;
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+    text-align: left;
+
+      padding-bottom:  20px;
+
+
+}
+
+.top-container {
+  background-color: #b3ffe6;
+  position: relative;
+  padding-top: 50px;
+
+
+}
+.top-container1 {
+  background-color: #b3ffe6;
+  position: relative;
+  padding-top: 100px;
+
+
+}
+.middle-container {
+}
+
+.middle2-container {
+  background-color: #9ACD32;
+  position: relative;
+  padding-top: 50px;
+}
+
+.fotos{
+  padding-bottom: 50px;
+}
+
+.fotos:hover{
+  color:#585858;
+}
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+text-align: center;
+  line-height: 2;
+}
+
+
+.e1 {
+  width: 200px;
+
+  margin-left: 30px;
+  margin: auto;
+}
+
+.bottom-container {
+  background: #c5ded7;
+  position: relative;
+  padding-top: 50px;
+    padding-bottom:  50px;
+
+
+}
+
+.top-cloud{
+  position: absolute;
+  right:100px;
+  top:5px;
+  padding-top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:50px;
+  bottom:150px;
+  padding-top: 100px;
+}
+.row{
+
+  text-align: center;
+  line-height: 2;
+}
+.skill-row1{
+  width: 50%;
+  margin: 100px auto 50px auto;
+  text-align: center;
+  line-height: 2;
+
+}
+.skill-row2{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+  line-height: 2;
+
+}
+
+.cuerpo{
+  clear: right;
+}
+
+
+
+
+
+
+.favorite {
+  width: 50%;
+  float: right;
+}
+#LlegadaySalida, #Almuerzo, #Artículospersonales, #Merienda, #Fiestas, #Horadelasiesta, #Biblioteca, #CarpetaBEE, #Útilesescolares,
+#Notas, #Conferencias, #Vestirseparalaescuela, #Medicamentos, #Servoluntario{
+padding-top: 100px;
+}
+
+
+
+
+
+#features {
+  padding: 7% 15%;
+}
+.feature-box {
+  text-align: center;
+}
+
+.icon{
+color: black;
+margin-bottom: 1rem;
+
+}
+
+.icon:hover{
+  color:#585858;
+}
+.foto{
+  margin-bottom: 1rem;
+}
+
+.foto:hover{
+  color:white;
+}
+/* login */
+
+
+body-login {
+  height: 100%;
+}
+
+body-login {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.image{
+  position: relative;
+
+
+}
+
+.image__img{
+
+
+}
+
+.image__overlay{
+  position:absolute;
+  top: 0;
+  left:0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+}
+
+.image__overlay:hover > * {
+transform: translateY(0);
+}
+
+.image__overlay:hover{
+  opacity: 1;
+}
+
+
+.image__title{
+  font-size: 2em;
+  font-weight: bold;
+
+}
+
+.image__description{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
